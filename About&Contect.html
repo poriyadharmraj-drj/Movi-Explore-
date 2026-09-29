@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movie Explorer - About & Contact</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+
+            background: linear-gradient(
+                135deg,
+                #10002b,
+                #240046,
+                #3c096c,
+                #5a189a,
+                #240046
+            );
+
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        .navbar {
+            
+            justify-content: space-between
+            align-items: center;
+            display:flex;
+            padding:;
+
+            background-color: rgba(10, 5, 20, 0.85);
+        }
+
+        .logo {
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .navlinks a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+        }
+
+        .navlinks a:hover {
+            color: #d0a2ff;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 900px;
+            margin: 40px auto;
+        }
+
+        .box {
+            padding: 25px;
+            margin-bottom: 25px;
+
+            border-radius: 15px;
+
+            background-color: rgba(255, 255, 255, 0.10);
+
+            border: 1px solid rgba(255, 255, 255, 0.20);
+        }
+
+        h1 {
+            color: #e0aaff;
+            text-align: center;
+        }
+
+        h2 {
+            color: #e0aaff;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            margin-bottom: 5px;
+        }
+
+        input,
+        select,
+        textarea {
+            width: 100%;
+            padding: 10px;
+
+            border-radius: 6px;
+            border: none;
+
+            background-color: rgba(255, 255, 255, 0.9);
+        }
+
+        textarea {
+            height: 100px;
+        }
+
+        .radio,
+        .check {
+            margin-top: 8px;
+        }
+
+        .radio input,
+        .check input {
+            width: auto;
+        }
+
+        button {
+            padding: 10px 18px;
+            margin-top: 20px;
+
+            border: none;
+            border-radius: 6px;
+
+            cursor: pointer;
+        }
+
+        .submit {
+            background-color: #c77dff;
+            color: white;
+        }
+
+        .clear {
+            background-color: #555;
+            color: white;
+            margin-left: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+
+            background-color: rgba(10, 5, 20, 0.9);
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="navbar">
+
+        <div class="logo">
+            🎬 Movie Explorer
+        </div>
+
+        <div class="navlinks">
+            <a href="home.html">Home</a>
+            <a href="catalogue.html">Catalogue</a>
+            <a href="movie details.html">Movie Details</a>
+            <a href="about.html">About & Contact</a>
+        </div>
+
+    </div>
+
+
+    <div class="container">
+
+        <div class="box">
+
+            <h1>About Movie Explorer Portal</h1>
+
+            <p>
+                The Movie Explorer Portal is an educational static
+                web development project created for the B.Tech 1st Year
+                Web Designing & Web Technologies Lab.
+            </p>
+
+            <p>
+                This portal helps students learn HTML and CSS by creating
+                a simple movie-based website with different pages and
+                useful information.
+            </p>
+
+        </div>
+
+
+        <div class="box">
+
+            <h2>User Feedback & Inquiry Form</h2>
+
+            <p>
+                Please fill out the form below to submit your feedback
+                or inquiry regarding the portal.
+            </p>
+
+
+            <form>
+
+                <label>Full Name:</label>
+                <input type="text" placeholder="e.g. Jack Sparrow">
+
+
+                <label>Email Address:</label>
+                <input type="email" placeholder="jack@example.com">
+
+
+                <label>Inquiry Category:</label>
+
+                <select>
+                    <option>General Feedback</option>
+                    <option>Technical Issue</option>
+                    <option>Other</option>
+                </select>
+
+
+                <label>How would you rate this portal design?</label>
+
+                <div class="radio">
+                    <input type="radio" name="rating">
+                    5 - Excellent
+                </div>
+
+                <div class="radio">
+                    <input type="radio" name="rating">
+                    4 - Good
+                </div>
+
+                <div class="radio">
+                    <input type="radio" name="rating">
+                    3 - Average
+                </div>
+
+                <div class="radio">
+                    <input type="radio" name="rating">
+                    2 - Needs Improvement
+                </div>
+
+
+                <label>Which features did you find most useful?</label>
+
+                <div class="check">
+                    <input type="checkbox">
+                    Catalogue Card Layout
+                </div>
+
+                <div class="check">
+                    <input type="checkbox">
+                    Technical Spec Tables
+                </div>
+
+                <div class="check">
+                    <input type="checkbox">
+                    Mobile Responsive Navigation
+                </div>
+
+                <div class="check">
+                    <input type="checkbox">
+                    Feedback Contact Form
+                </div>
+
+
+                <label>Your Feedback / Message:</label>
+
+                <textarea placeholder="Type your message here..."></textarea>
+
+
+                <button type="submit" class="submit">
+                    Submit
+                </button>
+
+                <button type="reset" class="clear">
+                    Clear
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+    <footer>
+        © 2026 Movie Explorer Portal
+    </footer>
+
+</body>
+</html>

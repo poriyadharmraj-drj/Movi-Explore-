@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Movie Explorer - Home</title>
+
+    <style>
+
+        /* Main Page Style */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+
+            /* Aesthetic Background */
+            background: linear-gradient(
+                135deg,
+                #020617,
+                #0c4a6e,
+                #164e63,
+                #020617
+            );
+
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        /* Main Content */
+        .front {
+            color: white;
+            padding: 20px 50px;
+        }
+
+        /* All Links */
+        .front a {
+            color: #67e8f9;
+        }
+
+        /* Navigation Links */
+        ul {
+            line-height: 1.8;
+        }
+
+        /* Main Heading */
+        h1 {
+            color: #a5f3fc;
+        }
+
+        /* Section Headings */
+        h2 {
+            color: #67e8f9;
+            margin-top: 30px;
+        }
+
+        /* Movie Titles */
+        h3 {
+            color: #bae6fd;
+        }
+
+        /* Movie Images */
+        img {
+            border-radius: 10px;
+            border: 2px solid rgba(103, 232, 249, 0.4);
+        }
+
+        /* Analytics Table */
+        table {
+            width: 100%;
+            max-width: 900px;
+            border-collapse: collapse;
+            margin-top: 15px;
+
+            background-color: rgba(0, 0, 0, 0.30);
+        }
+
+        /* Table Cells */
+        th,
+        td {
+            border: 1px solid rgba(103, 232, 249, 0.35);
+            padding: 12px;
+            text-align: left;
+        }
+
+        /* Table Heading */
+        th {
+            color: #67e8f9;
+            background-color: rgba(0, 0, 0, 0.45);
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+<div class="front">
+
+    <!-- Movie Explorer Logo -->
+    <a href="Movie explorer.html">🎬 Movie Explorer</a>
+
+
+    <!-- Navigation Menu -->
+    <ul>
+
+        <li>
+            <a href="home.html">Home</a>
+        </li>
+
+        <li>
+            <a href="catalogue.html">Catalogue</a>
+        </li>
+
+        <li>
+            <a href="movie details.html">Movie Details</a>
+        </li>
+
+        <li>
+            <a href="About&Contect.html">About & Contact</a>
+        </li>
+
+    </ul>
+
+    <br>
+
+
+    <!-- Main Welcome Section -->
+    <h1>Welcome to Movie Explorer Portal</h1>
+
+    Explore and discover cinematic experiences, explore detailed cast
+    profiles, and browse movies across various genres.
+
+    Designed for B.Tech Web Designing Lab.
+
+    <br><br>
+
+    <!-- Catalogue Link -->
+    <a href="catalogue.html">
+        Explore Full Movie Catalogue
+    </a>
+
+
+    <!-- Featured Movies Section -->
+    <h2>Spotlight Featured Films</h2>
+
+    Hand-picked top-rated films featured for this week
+
+    <br><br>
+
+
+    <!-- Movie 1 - Inception -->
+    <img src="inception.jpg" width="240px">
+
+    <h3>Inception</h3>
+
+    <b>Genre:</b> Science Fiction |
+    <b>Duration:</b> 148 min<br>
+
+    <b>Release Year:</b> 2010 |
+    <b>Rating:</b> ★ 8.8/10
+
+    <p>
+        A thief who steals corporate secrets through dream-sharing technology
+        is given the inverse task of planting an idea into the mind of a CEO.
+        <br>
+        <a href="details">Read full details</a>
+    </p>
+
+
+    <br><br>
+
+
+    <!-- Movie 2 - The Dark Knight -->
+    <img src="the dark knight.jpg" width="240px">
+
+    <h3>The Dark Knight</h3>
+
+    <b>Genre:</b> Action |
+    <b>Duration:</b> 152 min<br>
+
+    <b>Release Year:</b> 2008 |
+    <b>Rating:</b> ★ 9.0/10
+
+    <p>
+        When the menace known as the Joker wreaks havoc and chaos on Gotham
+        City, Batman must accept one of the greatest psychological tests
+        of his ability.
+        <br>
+        <a href="details">Read full details</a>
+    </p>
+
+
+    <br><br>
+
+
+    <!-- Movie 3 - Interstellar -->
+    <img src="Interstellar.jpg" width="240px">
+
+    <h3>Interstellar</h3>
+
+    <b>Genre:</b> Sci-Fi |
+    <b>Duration:</b> 169 min<br>
+
+    <b>Release Year:</b> 2014 |
+    <b>Rating:</b> ★ 8.7/10
+
+    <p>
+        A team of explorers travel through a wormhole in space in an attempt
+        to ensure humanity's survival on a new habitable planet.
+        <br>
+        <a href="details">Read full details</a>
+    </p>
+
+
+    <br><br>
+
+
+    <!-- Movie 4 - Pulp Fiction -->
+    <img src="pulp Fiction.jpg" width="240px">
+
+    <h3>Pulp Fiction</h3>
+
+    <b>Genre:</b> Crime / Drama |
+    <b>Duration:</b> 154 min<br>
+
+    <b>Release Year:</b> 1994 |
+    <b>Rating:</b> ★ 8.9/10
+
+    <p>
+        The lives of two mob hitmen, a boxer, a gangster and his wife,
+        and a pair of diner bandits intertwine in four tales of violence
+        and redemption.
+        <br>
+        <a href="details">Read full details</a>
+    </p>
+
+
+    <!-- Portal Analytics -->
+    <h2>Portal Summary Analytics</h2>
+
+    <table>
+
+        <!-- Table Header -->
+        <tr>
+            <th>Metric</th>
+            <th>Value</th>
+            <th>Description</th>
+        </tr>
+
+
+        <!-- Total Movies -->
+        <tr>
+            <td>Total Cataloged Movies</td>
+            <td>8 Titles</td>
+            <td>
+                Curated database entries available for static browsing
+            </td>
+        </tr>
+
+
+        <!-- Average Rating -->
+        <tr>
+            <td>Average User Rating</td>
+            <td>8.7 / 10</td>
+            <td>
+                Calculated across all listed titles
+            </td>
+        </tr>
+
+
+        <!-- Genres -->
+        <tr>
+            <td>Available Genres</td>
+            <td>5 Categories</td>
+            <td>
+                Action, Sci-Fi, Crime, Drama, Animation
+            </td>
+        </tr>
+
+
+        <!-- Languages -->
+        <tr>
+            <td>Supported Languages</td>
+            <td>English, Japanese, Korean</td>
+            <td>
+                International film metadata support
+            </td>
+        </tr>
+
+    </table>
+
+
+    <!-- Browse Categories -->
+    <h2>Browse by Categories</h2>
+
+    <ul>
+
+        <li>
+            <a href="catalogue.html">Action Movies</a>
+        </li>
+
+        <li>
+            <a href="catalogue.html">Science Fiction</a>
+        </li>
+
+        <li>
+            <a href="catalogue.html">Crime & Mystery</a>
+        </li>
+
+        <li>
+            <a href="catalogue.html">Drama & Romance</a>
+        </li>
+
+        <li>
+            <a href="catalogue.html">Animated Masterpieces</a>
+        </li>
+
+    </ul>
+
+
+    <br>
+
+
+    <!-- Footer -->
+    &copy; 2026 Movie Explorer Portal —
+    B.Tech 1st Year Web Designing Lab Assignment
+
+    <br><br>
+
+    Department of Computer Science & Engineering
+
+</div>
+
+</body>
+
+</html>
